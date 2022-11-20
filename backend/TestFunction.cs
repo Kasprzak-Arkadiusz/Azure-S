@@ -30,7 +30,7 @@ public class TestFunction
     {
         try
         {
-            var connectionString = Environment.GetEnvironmentVariable("ConnectionStrings:AzureSDatabase");
+            var connectionString = Environment.GetEnvironmentVariable("ConnectionString");
             const int minTags = 2;
             var tags = request.Query["tags"].ToString();
             var response = new List<BookVm>();

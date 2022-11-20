@@ -46,9 +46,9 @@ public static class CreateBookFunction
                 StatusCode = StatusCodes.Status500InternalServerError
             };
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-            return new ObjectResult("Wystąpił problem podczas dodawania książki")
+            return new ObjectResult(ex.Message)
             {
                 StatusCode = StatusCodes.Status500InternalServerError
             };

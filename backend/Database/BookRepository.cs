@@ -9,7 +9,7 @@ namespace backend.Database;
 
 public class BookRepository
 {
-    private readonly string _connectionString = Environment.GetEnvironmentVariable("ConnectionStrings:AzureSDatabase");
+    private readonly string _connectionString = Environment.GetEnvironmentVariable("ConnectionString");
 
     private static int CreateBook(Book book, SqlConnection connection, SqlTransaction transaction)
     {
