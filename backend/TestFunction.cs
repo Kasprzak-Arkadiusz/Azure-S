@@ -25,7 +25,7 @@ public class TestFunction
 {
     [FunctionName("books")]
     public static async Task<IActionResult> Run(
-        [HttpTrigger(AuthorizationLevel.Anonymous, "GET", "books")]
+        [HttpTrigger(AuthorizationLevel.Anonymous, "GET")]
         HttpRequest request, ILogger log)
     {
         try
