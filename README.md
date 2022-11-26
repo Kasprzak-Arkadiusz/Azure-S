@@ -29,3 +29,4 @@ __Azure Functions__ – Wykorzystywany do obsługi żądań z frontendu oraz int
 
 ## Demo
 
+https://www.youtube.com/watch?v=PaKqKWVUsoU
