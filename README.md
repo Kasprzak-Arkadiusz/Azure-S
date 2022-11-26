@@ -25,7 +25,7 @@ __Azure Functions__ – Wykorzystywany do obsługi żądań z frontendu oraz int
 
 
 ## Architektura
-![architecture](Readme/architecture.jpg)
+![architecture](/Readme/Architecture.png)
 
 ## Demo
 
